@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @font-face {
+            font-family: 'Crayoric';
+            src: url('Crayonified Demo.otf') format(opentype);
+            font-weight: normal;
+            font-style: normal;
+        } 
+        @font-face {
+            font-family: 'Perfect';
+            src: url('KGPerfectPenmanship.otf') format(opentype);
+            font-weight: normal;
+            font-style: normal;
+        } 
+        @font-face {
+            font-family: 'Star';
+            src: url(Starshines.otf) format(opentype);
+            font-weight: normal;
+            font-style: normal;
+        } 
+        h1{
+            text-align: center ;
+            font-family: 'Star', Helvetica, sans-serif;
+            color: rgb(248, 255, 109);
+            font-size: 3.5em
+        }
+        h2{
+            text-align: center ;
+            font-family: 'Crayoric', Helvetica, sans-serif;
+            color: rgb(30, 32, 156);
+            font-size: 2em;
+        }
+        h3{
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Infanty Magic</h1>
+        <h2>[Sua_infancia_em_uma_loja]</h2>
+    </header>
+
+    <form action="" method="post">
+    <Fieldset>
+        <legend><h3>Preencha Suas Informações Para a Compra</h3></legend>
+
+
+    
+        <label><!--Nome-->
+        Nome da conta:
+        <input type="text" size="50" placeholder="Digite seu nome aqui:" name="Nome">
+        </label>
+        
+        <p>
+        <label>
+        E-mail:
+        <input type="text" size="70" name="endereço" placeholder="Digite seu e-mail aqui:">
+        </label>
+        </p>
+
+
+        <p><!--Senha-->
+        <label>
+    Senha:
+    <input type="password" size="9" maxlength="5" name="senha">
+        </label>    
+        </p>
+
+        </Fieldset>
+        <br> <!--Espaço Entre os Grupos-->
+
+        <div class="catalogo-fotos">
+        <img src="https://images.vexels.com/media/users/3/266311/isolated/preview/803f9c7874354a9f2be0d0e1316554a1-bola-de-tracado-de-cor-de-brinquedos.png" alt="Img1" width="200">
+        </div>  
+
+        <br>
+        <Fieldset>
+        <legend><h3>Escolha Seus Brinquedos Favoritos!</h3></legend>
+        
+        
+        Quais brinquedos você deseja?:
+        <br>
+        <input type="checkbox" name="bri" value="A"> Carro Hot Wheels
+        <br>
+        <input type="checkbox" name="bri" value="B"> Furbies
+        <br>
+        <input type="checkbox" name="bri" value="C"> Nerf
+        <br>
+        <input type="checkbox" name="bri" value="D"> Barbie
+        <br>
+        <input type="checkbox" name="bri" value="E"> PlayStation 2
+
+        <p>
+        
+        Qual será seu brinde?
+        <br>
+        <input type="radio" name="des" value="sdo"> Chaveiro Scooby-Doo<br>
+        <input type="radio" name="des" value="msp"> Chaveiro Meninas Super Poderosas<br>
+        <input type="radio" name="des" value="lt"> Meias Looney Tunes<br>
+        <input type="radio" name="des" value="bob"> Meias Bob Esponja Calça Quadrada<br>
+        <br>
+
+
+        Qual cidade você mora?
+        <br>
+        <select name="cidade" >
+        <option value="SP"> São Paulo </option>
+        <option value="JR"> Jacareí </option>
+        <option value="SJC"> São José dos Campos </option>
+        </select><p>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetar">
+    </Fieldset>
+    </form>
+    <br><br><br><br>
+</body>
+</html>

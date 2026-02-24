@@ -1,0 +1,63 @@
+body{
+    background-image: url(IMG/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+#Texto{
+    height: 400px;
+    width: 700px;
+    text-align: justify;
+    font-size: 35px;
+    position: absolute;
+    top: 7%; left: 25%;
+}
+
+#Fobos{
+    background-image:url(IMG/Fobos.jpg);
+    background-repeat: no-repeat;
+    height:200px;
+    width:200px;
+    position: absolute;
+    top: 1%; right: 2%;
+    background-size: cover;
+    box-shadow: 6px 12px 6px #fdceff;
+    border-radius: 6em;
+}
+
+#Deimos{
+    background-image:url(IMG/Deimos-MRO.jpg);
+    background-repeat: no-repeat;
+    height:200px;
+    width:200px;
+    position: absolute;
+    top: 1%; left: 1%;
+    background-size: cover;
+    box-shadow: 6px 12px 6px #fdceff;
+    border-radius: 6em;
+}
+
+#Peppa{
+    background-image:url(IMG/Peppa.png);
+    background-repeat: no-repeat;
+    height:200px;
+    width:200px;
+    position: absolute;
+    bottom: 1%; right: 2%;
+    background-size: cover;
+    box-shadow: 6px 12px 6px #fdceff;
+    border-radius: 6em;
+}
+
+#Planeta{
+    background-image:url(IMG/Planeta.png);
+    background-repeat: no-repeat;
+    height:200px;
+    width:200px;
+    position: absolute;
+    bottom: 1%; left: 1%;
+    background-size: cover;
+    box-shadow: 6px 12px 6px #fdceff;
+    border-radius: 6em;
+}
