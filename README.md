@@ -14,7 +14,7 @@
 **Github** 
 
   Tem vários repositórios legais! \
-  Sim! Isso é uma prograganda de mim mesma!\
+  Sim! Isso é uma prograganda não remunerada!\
   Só quem sabe, sabe. \
   E saber tudo é perder tudo.
 
