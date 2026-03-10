@@ -1,7 +1,7 @@
 # Programa-o-Front-End #
 
 ##
-[<img src="imagem_teste.jpeg" height="150" widht="150" align="left">](https://www.amazon.com.br/Andrew-Collection-Drawing-Creative-Illustration/dp/912423866X)
+[<img src="Atividade1/imgs/WhatsApp Image 2026-02-19 at 17.02.50.jpeg" height="150" widht="150" align="left">](https://www.amazon.com.br/Andrew-Collection-Drawing-Creative-Illustration/dp/912423866X)
 
 **Sobre mim** 
 
