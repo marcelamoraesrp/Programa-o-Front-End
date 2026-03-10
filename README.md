@@ -1,4 +1,4 @@
-# Programa-o-Front-End #
+# Programação Front-End #
 
   É a parte visual e interativa de sites e aplicações, com a qual o usuário interage diretamente. Focado na interface e experiência do usuário, ele transforma designs em código usando ´HTML´ (estrutura), ´CSS´ (estilo) e ´JavaScript´ (interatividade).
 ##
