@@ -1,4 +1,2 @@
-# Programa-o-Front-End
-Mav Etec Front End
+# Programa-o-Front-End #
 
-Primeira atividade pronta!
