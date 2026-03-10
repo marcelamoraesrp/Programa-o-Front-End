@@ -6,14 +6,14 @@
     <title>Mano???</title>
 </head>
 <body>
-    <label for="inp">Mensagem</label>
+    <label for="inp">Nome: </label>
     <input type="text" id="inp"><br><br>
-    <button onclick="mudarTexto()">AQUI</button>
+    <button onclick="mudarTexto()">Mande apertando aqui!</button>
 
     <script>
         function mudarTexto() {
-            let mensagem = document.getElementById("inp").value;
-            alert("" + mensagem);
+            let nome = document.getElementById("inp").value;
+            alert("Olá" + nome);
         }
     </script>
 </body>
